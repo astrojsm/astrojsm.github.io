@@ -32,3 +32,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var audioTrigger = document.getElementById('AudioBtn');
+if (audioTrigger) {
+    audioTrigger.addEventListener('click', function() {
+    // This audio file is made by the CLOVA Dubbing service
+    var audio = new Audio("assets/audio/name.mp3"); 
+    audio.loop = false; 
+    audio.play();
+    })
+};

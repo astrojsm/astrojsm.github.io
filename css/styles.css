@@ -176,6 +176,9 @@ p {
     font-size: 1rem;
     font-weight: bold;
 }
+.authorfont:before{
+  content: "\02014\0A0";
+}
 
 abbr[title],
 abbr[data-bs-original-title] {
@@ -3523,6 +3526,13 @@ textarea.form-control-lg {
     text-transform: uppercase;
 }
 
+.btn-sound {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  border: 0px solid transparent;
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -5456,7 +5466,7 @@ textarea.form-control-lg {
 }
 
 .toast {
-  width: 540px;
+  width: 620px;
   max-width: 100%;
   font-size: 0.875rem;
   pointer-events: auto;
