@@ -159,6 +159,24 @@ p {
   margin-bottom: 1rem;
 }
 
+.quotefont {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.quotefont:before{
+    content: '"';
+}
+.quotefont:after {
+    content: '"';
+}
+.authorfont {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -3495,6 +3513,16 @@ textarea.form-control-lg {
   border-radius: 0.2rem;
 }
 
+.btn-quote {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    border: 0px solid transparent;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -5428,7 +5456,7 @@ textarea.form-control-lg {
 }
 
 .toast {
-  width: 350px;
+  width: 540px;
   max-width: 100%;
   font-size: 0.875rem;
   pointer-events: auto;
@@ -5473,8 +5501,8 @@ textarea.form-control-lg {
 }
 
 .toast-body {
-  padding: 0.75rem;
-  word-wrap: break-word;
+    padding: 0.75rem;
+    word-wrap: break-word;
 }
 
 .modal {
