@@ -2,6 +2,10 @@
 
 const quotes = [
     {
+        quote: "Nolite te bastardes carborundorum.",
+        author: "Margaret Atwood, <The Handmaid's Tale>"
+    },
+    {
         quote: "Let us not desert one another; we are an injured body.",
         author: "Jane Austen, <Northanger Abbey>"
     },
