@@ -6,3 +6,5 @@ Disallow: /img
 
 User-agent: *
 Disallow: /
+
+Sitemap: http://astrojsm.github.io/sitemap.xml
